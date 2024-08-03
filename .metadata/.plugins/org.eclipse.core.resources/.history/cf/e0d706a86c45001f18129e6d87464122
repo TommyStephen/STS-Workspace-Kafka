@@ -1,0 +1,8 @@
+package study.service;
+
+import org.springframework.kafka.core.KafkaTemplate;
+
+public class KafkaMessagePublisher {
+
+	private KafkaTemplate<String, Object> template;
+}
